@@ -1,12 +1,18 @@
+const path = require('path');
+
 module.exports = {
     entry: './main.js', // 入口文件路径
     output: {
-        path: '/',
-        filename: 'index.js'
+        path: path.resolve(__dirname,'dist'),
+        filename: 'index.js',
+        publicPath:'temp/'
     },
     devServer: {
         inline: true,
-        port: 3333
+        port: 9001,
+        contentBase:'./',
+        host:'localhost',
+        compress:true
     },
     module: {
         loaders: [

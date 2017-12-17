@@ -1,28 +1,25 @@
 {
   "name": "fe-react",
   "version": "1.0.0",
-  "description": "智能排队叫号系统",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lijingyanyan/FE-Smart-Queue.git"
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "author": "yan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lijingyanyan/FE-Smart-Queue/issues"
-  },
-  "homepage": "https://github.com/lijingyanyan/FE-Smart-Queue#readme",
   "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
