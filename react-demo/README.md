@@ -1,5 +1,16 @@
 # 使用create-react-app生成的项目环境
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+使用create-react-app脚手架创建的项目工程。
+create-react-app集成了webpack,生成的项目目录看不到webpack的配置文件。执行npm run eject使配置文件暴露出来，我们可以进行相关的配置。 
+1. 执行npm run eject报错,是git的问题    
+2. 配置webpack.config.dev.js webpack.config.prod.js 这两个文件没有抽出公共的配置    
+    SASS-loader：`npm install sass-loader node-sass --save-dev`    
+3. 配置代码检查工具，eslint.根目录下添加 eslintrc文件   
+
+
+
+
+
+This project was bootstrapped with [Create React App] (https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
