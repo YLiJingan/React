@@ -1,0 +1,35 @@
+{
+  "name": "react-bucket",
+  "version": "1.0.0",
+  "description": "react全家桶学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YLiJingan/React.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YLiJingan/React/issues"
+  },
+  "homepage": "https://github.com/YLiJingan/React#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
